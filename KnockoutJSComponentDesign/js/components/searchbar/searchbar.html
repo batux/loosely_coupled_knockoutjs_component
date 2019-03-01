@@ -1,0 +1,12 @@
+
+<input type="text" data-bind="value: searchedText"></input>
+<button data-bind="click: searchInDatasource">Search</button>
+
+<hr>
+
+<!-- ko foreach: searchResults -->
+
+	<p data-bind="text: $data"></p>
+	
+<!-- /ko -->
+
